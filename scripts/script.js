@@ -4,13 +4,17 @@ var tFormat = 12
 
 window.onload = function() {
     // Set Timer and run function, with appropriate time format
-    setTimeout(showCurrentTime, 1000, (tFormat > 12) ? 24 : 12);
+    //setTimeout(showCurrentTime, 1000, (tFormat > 12) ? 24 : 12);
+    this.setTimeout(showCurrentTime, 1000);
 
     // Add click event listener for te button
     document.getElementById("btn24hr").addEventListener("click", changeTimeFormat);
+
+    // 
+    document.getElementById("Row1").innerText = "Testing"
 }
 
-function showCurrentTime(timeFormat){
+function showCurrentTime(){
     // Fill Array to convert Month (Integer) to Month (String)
     var monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
@@ -63,7 +67,8 @@ function showCurrentTime(timeFormat){
     document.getElementById("secondsDisplay").innerText = 
                 ": " + sec;
 
-    setTimeout(showCurrentTime, 1000, (tFormat > 12) ? 24 : 12);
+    //setTimeout(showCurrentTime, 1000, (tFormat > 12) ? 24 : 12);
+    setTimeout(showCurrentTime, 1000);
 }
 
 function changeTimeFormat(){

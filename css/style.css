@@ -78,5 +78,11 @@ h3 {
     background-color: #333333;
     color: deepskyblue;
     width: 350px;
+}
 
+.myRows {
+    background-color: #555555;
+    color: azure;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 22px;
 }
