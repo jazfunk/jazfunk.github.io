@@ -3,45 +3,69 @@ body {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: darkgrey;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto;    
 }
 header {
-    background-color: #444444;
+    background-color: #444444; 
+    color: #f4f4f4;          
 }
 main {
-    background-color: #555555;
+    background-color: #555555;    
 }
 footer {
     background-color: #666666;
 }
+a {
+    color: khaki;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 22px;
+}
 h1 {
     font-size: 56px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 4px;
-    margin-bottom: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    padding-top: 0px;   
+    padding-bottom: 6px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 h2 {
     font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: 4px;
-    margin-bottom: 6px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f4f4f4;
+    margin: 0 auto;
 }
 h3 {
     font-size: 12px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: italic;
-    color: #888888;
+    color: #f4f4f4;
 }
-.main-table {
+.main-table {    
     font-family: monospace;
-    background-color: white;
+    background-color: #a0a0a0;
     color: black;
     margin: 0 auto;    
-    width: 100%;
+    padding: 0px;
+    width: 100%;    
 }
-.inner-table {
+.inner-table {    
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: whitesmoke;    
-    margin: 0 auto;    
-    width: 66%;
+    background-color: black;
+    margin: 0 auto;  
+    width: 80%;  
+    height: 100vh;
+}
+.left-inner-table {    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #666666;
+    color: #f4f4f4;
+    margin: 0 auto;   
+    width: 25%;         
+}
+.right-inner-table {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #999999;
+    color: #f4f4f4;
+    margin: 0 auto; 
+    width: 100%;      
 }
