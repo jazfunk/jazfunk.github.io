@@ -1,14 +1,18 @@
 body {
-    background-color: #333333; 
-    color: silver;
+    background-color: #000000;         
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: darkgrey;
     text-align: center;
     margin: 0 auto;
 }
-
+header {
+    background-color: #444444;
+}
 main {
     background-color: #555555;
-    color: #ffffff;
+}
+footer {
+    background-color: #666666;
 }
 
 h1 {
@@ -32,57 +36,16 @@ h3 {
     color: #888888;
 
 }
-.mainTable {
-    margin: 0 auto;
-    background-color: silver;
-    width: 350px;
-
-}
-.clockHourMin {
-    font-size: 68px;
-    text-align: center;
-    background-color: #222222;
-    color: snow;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    width: 75%;
-}
-
-.clockSeconds {
-    font-size: 40px;
-    text-align: left;
-    padding-left: 12px;
-    background-color: #666666;
-}
-
-.clockAmPm {
-    font-size: 24px;
-    text-align: center;
-    background-color: #444444;    
-    padding-left: 10px;
-    padding-right: 10px;
-    width: 25%;
-}
-
-.dayOfWeek {
-    font-size: 26px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    text-align: center;
-    background-color: #444444;
+.main-table {
+    border: 2px solid black;
+    background-color: #f4f4f4;
+    color: black;
+    margin: 0 auto;    
     width: 100%;
 }
-
-.myButtons {
-    background-color: #333333;
-    color: deepskyblue;
-    width: 350px;
-}
-
-.myRows {
-    background-color: #555555;
-    color: azure;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 22px;
+.inner-table {
+    border: 2px solid black;
+    background-color: darkgray;    
+    margin: 0 auto;    
+    width: 100%;
 }
